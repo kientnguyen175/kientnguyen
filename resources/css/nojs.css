@@ -1,0 +1,13 @@
+#isg-page-loading {
+    display:none;
+}
+.isg-panel {
+    display:block;
+    width:100%;
+}
+.panel-img {
+    margin: 0px 00px 60px 0px;
+}
+#isg-hidden-menu {
+    display: block;
+}
