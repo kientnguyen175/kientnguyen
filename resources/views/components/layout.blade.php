@@ -57,11 +57,12 @@
 
     {{ $panels ?? '' }}
     
-    @vite('resources/js/jquery-3.1.0.min.js')
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <!-- PANEL -->
     @vite('resources/js/isg-panel.min.js')
     <!-- CAROUSEL -->
-    @vite('resources/js/slick.min.js')
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <!-- @vite('resources/js/slick.min.js') -->
     <script type="text/javascript">
         // Testimonials carousel
         jQuery(document).ready(function () {
