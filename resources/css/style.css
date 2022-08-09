@@ -2608,7 +2608,7 @@ input[type="submit"],
     display: block;
     margin: 0px;
     font-size: 13px;
-    opacity: 0.5;
+    /* opacity: 0.5; */
 }
 
 #isg-footer .isg-footer-inner a:hover {

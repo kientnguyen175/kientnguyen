@@ -5,7 +5,7 @@
         <div class="isg-intro">
             <!-- MOBILE LOGO -->
             <div class="isg-mobile-logo">
-                <img src="images/photos/square.jpg" alt="" />      
+                <img src="{{ asset('images/avatar.jpeg') }}" alt="" />      
             </div>
             <!-- HEADER ICONS -->
             <ul class="isg-header-icons">

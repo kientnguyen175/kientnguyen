@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <meta name="description" content="">
     <meta name="keywords" content="">
-    <link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link href="/images/avatar-emoji.jpg" rel="shortcut icon" type="image/x-icon" />
     @vite('resources/css/normalize.css')
     @vite('resources/css/font-awesome.min.css')
     @vite('resources/css/style.css')
@@ -50,7 +50,7 @@
 
         <footer id="isg-footer">
             <div class="isg-footer-inner">
-                <p>Have a good day <i class="fa fa-heart"></i> <i id="isg-back-to-top" class="fa fa-arrow-up"></i></p>
+                <p>&#169; 2022 Kientnguyen <i id="isg-back-to-top" class="fa fa-arrow-up"></i></p>
             </div>
         </footer>
     </div>
@@ -62,7 +62,6 @@
     @vite('resources/js/isg-panel.min.js')
     <!-- CAROUSEL -->
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    <!-- @vite('resources/js/slick.min.js') -->
     <script type="text/javascript">
         // Testimonials carousel
         jQuery(document).ready(function () {
