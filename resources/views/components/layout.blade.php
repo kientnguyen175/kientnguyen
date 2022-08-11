@@ -38,9 +38,6 @@
             <div class="isg-hamburger">
                 <span>Toggle Menu</span>
             </div>
-            <a id="isg-down-arrow" href="#">
-                <i class="fa fa-arrow-circle-o-down"></i>
-            </a>
 
             {{ $banner ?? '' }}
 
@@ -50,7 +47,7 @@
 
         <footer id="isg-footer">
             <div class="isg-footer-inner">
-                <p>&#169; 2022 Kientnguyen <i id="isg-back-to-top" class="fa fa-arrow-up"></i></p>
+                <p>&#169; 2022 Kientnguyen</p>
             </div>
         </footer>
     </div>

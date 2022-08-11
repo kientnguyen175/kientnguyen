@@ -626,13 +626,13 @@ blockquote p {
     transition: transform 0.2s linear;
 }
 
-.isg-header-icons li.isg-social a:hover:before {
+/* .isg-header-icons li.isg-social a:hover:before {
     -webkit-transform: translateZ(0) rotate(360deg);
     -moz-transform: translateZ(0) rotate(360deg);
     -o-transform: translateZ(0) rotate(360deg);
     -ms-transform: translateZ(0) rotate(360deg);
     transform: translateZ(0) rotate(360deg);
-}
+} */
 
 #isg-down-arrow {
     position: absolute;
