@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <meta name="description" content="">
     <meta name="keywords" content="">
-    <link href="/images/avatar-emoji.jpg" rel="shortcut icon" type="image/x-icon" />
+    <link href="{{ asset('images/favicon.png') }}" rel="shortcut icon" type="image/x-icon" />
     @vite('resources/css/normalize.css')
     @vite('resources/css/font-awesome.min.css')
     @vite('resources/css/style.css')

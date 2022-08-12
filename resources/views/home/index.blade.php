@@ -34,56 +34,56 @@
     <x-slot:slot>
         <div id="isg-boxes">
             <div class="isg-box one-third" data-bgcolor="#2E4057">
-                <a id="about-link" href="#about" class="isg-panel-open">
+                <a id="profile-link" href="#profile" class="isg-panel-open">
                     <div class="isg-box-content">
                         <h2>PROFILE</h2>
                         <br>
-                        <b>VIEW MORE</b>
+                        <b>EXPLORE</b>
                     </div>
                 </a>
             </div>
             <div class="isg-box one-third" data-bgcolor="#422040">
-                <a id="resume-link" href="#resume" class="isg-panel-open">
+                <a id="education-link" href="#education" class="isg-panel-open">
                     <div class="isg-box-content">
                         <h2>EDUCATION</h2>
                         <br>
-                        <b>VIEW MORE</b>
+                        <b>EXPLORE</b>
                     </div>
                 </a>
             </div>
             <div class="isg-box one-third" data-bgcolor="#2E4057">
-                <a id="portfolio-link" href="#portfolio" class="isg-panel-open">
+                <a id="experience-link" href="#experience" class="isg-panel-open">
                     <div class="isg-box-content">
                         <h2>EXPERIENCE</h2>
                         <br>
-                        <b>VIEW MORE</b>
+                        <b>EXPLORE</b>
                     </div>
                 </a>
             </div>
             <div class="isg-box one-third" data-bgcolor="#422040">
-                <a id="contact-link" href="#contact" class="isg-panel-open">
+                <a id="projects-link" href="#projects" class="isg-panel-open">
                     <div class="isg-box-content">
                         <h2>PROJECTS</h2>
                         <br>
-                        <b>VIEW MORE</b>
+                        <b>EXPLORE</b>
                     </div>
                 </a>
             </div>
             <div class="isg-box one-third" data-bgcolor="#2E4057">
-                <a id="contact-link" href="#contact" class="isg-panel-open">
+                <a id="skills-link" href="#skills" class="isg-panel-open">
                     <div class="isg-box-content">
                         <h2>SKILLS</h2>
                         <br>
-                        <b>VIEW MORE</b>
+                        <b>EXPLORE</b>
                     </div>
                 </a>
             </div>
             <div class="isg-box one-third" data-bgcolor="#422040">
-                <a id="contact-link" href="#contact" class="isg-panel-open">
+                <a id="awards-link" href="#awards" class="isg-panel-open">
                     <div class="isg-box-content">
                         <h2>AWARDS</h2>
                         <br>
-                        <b>VIEW MORE</b>
+                        <b>EXPLORE</b>
                     </div>
                 </a>
             </div>

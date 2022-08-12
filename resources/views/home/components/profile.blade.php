@@ -1,4 +1,10 @@
-<article id="about" class="isg-panel">
+<style>
+    #profile a:hover {
+        text-decoration: underline;
+    }
+</style>
+
+<article id="profile" class="isg-panel">
     <div class="isg-panel-inner" data-bordercolor="#1F2041">
         <div class="isg-panel-close">
             <span class="fa fa-times-circle-o"></span>
@@ -9,86 +15,34 @@
         <div class="isg-panel-up">
             <span class="fa fa-arrow-circle-o-up"></span>
         </div>
-        <h2>ABOUT ME</h2>
-        <!-- TABLE -->
+        <h2>PERSONAL INFORMATION</h2>
         <div class="isg-table">
             <div class="isg-table-row">
+                <div>
+                    <p><i class="fa fa-user" aria-hidden="true"></i></i> <strong>Full name</strong></p>
+                    <p>Kien Trung Nguyen</p>
+                </div>
                 <div>
                     <p><i class="fa fa-birthday-cake" aria-hidden="true"></i> <strong>Date of birth</strong></p>
                     <p>May 17th 1999</p>
                 </div>
+            </div>
+            <div class="isg-table-row">
                 <div>
-                    <p><i class="fa fa-language"></i> <strong>Languages</strong></p>
-                    <p>English, German, French</p>
+                    <p><i class="fa fa-envelope" aria-hidden="true"></i> <strong>Email</strong></p>
+                    <p>kient.nguyen175@gmail.com</p>
+                </div>
+                <div>
+                    <p><i class="fa fa-phone" aria-hidden="true"></i> <strong>Phone number</strong></p>
+                    <p>0961729199</p>
                 </div>
             </div>
             <div class="isg-table-row">
                 <div>
-                    <p><i class="fa fa-futbol-o"></i> <strong>Hobbies</strong></p>
-                    <p>Soccer, Puzzles, Yoga, Music</p>
-                </div>
-                <div>
-                    <p><i class="fa fa-check-circle"></i> <strong>Availability</strong></p>
-                    <p>Part Time</p>
-                </div>
-            </div>
-        </div>
-        <p>Proident quo ipsum. Aliquip lorem irure hic quid, et elit litteris relinqueret. Sunt arbitror efflorescere. Ingeniis non pariatur iis o elit arbitrantur iis an magna philosophari o nam aute enim ea excepteur quo ab laboris ita consequat ex mandaremus exquisitaque de excepteur de quid a singulis hic id dolore ullamco quibusdam.</p>
-        <hr/>
-        <h2>WHAT CAN I DO</h2>
-        <!-- ICON BOX -->
-        <div class="isg-circle-icon-box">
-            <div class="isg-circle-icon-left">
-                <!-- ICON -->
-                <div class="isg-circle-icon-container">
-                    <a href="#" class="fa fa-paint-brush"></a>
-                </div>
-                <!-- ICON TEXT-->
-                <div class="isg-circle-icon-text">
-                    <h5>Web Design</h5>
-                    <p>Te summis mentitum ullamco, aliqua nam officia do nescius dolor quem an ipsum,eu quorum laborum philosophari. Sint est ubi aliqua cernantur nam. Quo ubi praetermissum, iis anim lorem ad admodum.</p>
-                </div>
-            </div>
-        </div>
-        <!-- ICON BOX -->
-        <div class="isg-circle-icon-box">
-            <div class="isg-circle-icon-left">
-                <!-- ICON -->
-                <div class="isg-circle-icon-container">
-                    <a href="#" class="fa fa-wordpress"></a>
-                </div>
-                <!-- ICON TEXT-->
-                <div class="isg-circle-icon-text">
-                    <h5>WordPress</h5>
-                    <p>Officia exercitation do nescius. Est nam legam sint duis. Cernantur quis iudicem ingeniis, sint hic mandaremus. Hic summis dolore e quibusdam, commodo. Sed velit doctrina philosophari aut commodo.</p>
-                </div>
-            </div>
-        </div>
-        <!-- ICON BOX -->
-        <div class="isg-circle-icon-box">
-            <div class="isg-circle-icon-left">
-                <!-- ICON -->
-                <div class="isg-circle-icon-container">
-                    <a href="#" class="fa fa-eye"></a>
-                </div>
-                <!-- ICON TEXT-->
-                <div class="isg-circle-icon-text">
-                    <h5>SEO</h5>
-                    <p>Voluptate illum dolor ita ipsum, quid deserunt singulis, labore admodum itamultos malis ea nam nam tamen foreamet. Vidisse quid incurreret ut ut labore possumus. Aliquip lorem irure hic quid, et elit.</p>
-                </div>
-            </div>
-        </div>
-        <!-- ICON BOX -->
-        <div class="isg-circle-icon-box">
-            <div class="isg-circle-icon-left">
-                <!-- ICON -->
-                <div class="isg-circle-icon-container">
-                    <a href="#" class="fa fa-apple"></a>
-                </div>
-                <!-- ICON TEXT-->
-                <div class="isg-circle-icon-text">
-                    <h5>Application</h5>
-                    <p>Legam e officia ita nae nam varias, admodum ea illum officia, nisi pariatur id doloreirure, est proident se probant, et lorem appellat possumus appellat. Excepteur de quid a singulis hic id dolore ullamco.</p>
+                    <a target="_blank" href="https://github.com/kientnguyen175">
+                        <p><i class="fa fa-github" aria-hidden="true"></i> <strong>GitHub</strong></p>
+                        <p>github.com/kientnguyen175</p>
+                    </a>
                 </div>
             </div>
         </div>
