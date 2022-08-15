@@ -1,6 +1,10 @@
 <x-layout>
     <x-slot:title>Home</x-slot>
 
+    <x-slot:style>
+        @vite('resources/css/home.scss')
+    </x-slot>
+
     <x-slot:banner>
         <div class="isg-intro">
             <!-- MOBILE LOGO -->
@@ -17,13 +21,13 @@
                     <a target="_blank" href="{{ config('social.facebook') }}" class="fa fa-facebook">Facebook</a>
                 </li>
                 <li class="isg-social">
-                    <a target="_blank" href="{{ config('social.github') }}" class="fa fa-github">GitHub</a>
-                </li>
-                <li class="isg-social">
-                    <a target="_blank" href="{{ config('social.instagram') }}" class="fa fa-instagram" target="_blank">Instagram</a>
+                    <a target="_blank" href="{{ config('social.instagram') }}" class="fa fa-instagram">Instagram</a>
                 </li>
                 <li class="isg-social">
                     <a target="_blank" href="{{ config('social.youtube') }}" class="fa fa-youtube-play" target="_blank">Youtube</a>
+                </li>
+                <li class="isg-social">
+                    <a target="_blank" href="{{ config('social.github') }}" class="fa fa-github">GitHub</a>
                 </li>
             </ul>
             <h1>KIEN T. NGUYEN</h1>
@@ -33,57 +37,57 @@
 
     <x-slot:slot>
         <div id="isg-boxes">
-            <div class="isg-box one-third" data-bgcolor="#2E4057">
+            <div class="isg-box one-third">
                 <a id="profile-link" href="#profile" class="isg-panel-open">
                     <div class="isg-box-content">
                         <h2>PROFILE</h2>
                         <br>
-                        <b>EXPLORE</b>
+                        <b>Explore</b>
                     </div>
                 </a>
             </div>
-            <div class="isg-box one-third" data-bgcolor="#422040">
+            <div class="isg-box one-third">
                 <a id="education-link" href="#education" class="isg-panel-open">
                     <div class="isg-box-content">
                         <h2>EDUCATION</h2>
                         <br>
-                        <b>EXPLORE</b>
+                        <b>Explore</b>
                     </div>
                 </a>
             </div>
-            <div class="isg-box one-third" data-bgcolor="#2E4057">
+            <div class="isg-box one-third">
                 <a id="experience-link" href="#experience" class="isg-panel-open">
                     <div class="isg-box-content">
                         <h2>EXPERIENCE</h2>
                         <br>
-                        <b>EXPLORE</b>
+                        <b>Explore</b>
                     </div>
                 </a>
             </div>
-            <div class="isg-box one-third" data-bgcolor="#422040">
+            <div class="isg-box one-third">
                 <a id="projects-link" href="#projects" class="isg-panel-open">
                     <div class="isg-box-content">
                         <h2>PROJECTS</h2>
                         <br>
-                        <b>EXPLORE</b>
+                        <b>Explore</b>
                     </div>
                 </a>
             </div>
-            <div class="isg-box one-third" data-bgcolor="#2E4057">
+            <div class="isg-box one-third">
                 <a id="skills-link" href="#skills" class="isg-panel-open">
                     <div class="isg-box-content">
                         <h2>SKILLS</h2>
                         <br>
-                        <b>EXPLORE</b>
+                        <b>Explore</b>
                     </div>
                 </a>
             </div>
-            <div class="isg-box one-third" data-bgcolor="#422040">
+            <div class="isg-box one-third">
                 <a id="awards-link" href="#awards" class="isg-panel-open">
                     <div class="isg-box-content">
                         <h2>AWARDS</h2>
                         <br>
-                        <b>EXPLORE</b>
+                        <b>Explore</b>
                     </div>
                 </a>
             </div>

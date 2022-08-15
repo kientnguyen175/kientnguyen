@@ -14,6 +14,7 @@ export default defineConfig({
                 'resources/css/colors.css',
                 'resources/css/media.css',
                 'resources/css/nojs.css',
+                'resources/css/home.scss',
                 //js
                 'resources/js/isg-panel.min.js',
                 'resources/js/lightgallery.min.js',
@@ -23,7 +24,7 @@ export default defineConfig({
                 'resources/js/home.js',
                 'resources/js/custom.js',
             ],
-            refresh: true,
+            refresh: false,
         }),
     ],
 });

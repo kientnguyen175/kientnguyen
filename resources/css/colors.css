@@ -166,10 +166,6 @@ blockquote {
 
 /* ================= HEADER ICONS ================== */
 
-.isg-header-icons li.isg-social a:before {
-    background: #1F2041;
-}
-
 .isg-header-icons li.isg-social a,
 .isg-header-icons li.isg-social a:hover,
 .isg-header-icons li.isg-social a:focus,

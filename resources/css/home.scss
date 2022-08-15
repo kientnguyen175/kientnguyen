@@ -1,0 +1,184 @@
+@media only screen and (min-width: 1100px) {
+    .isg-box b {
+        opacity: 1;
+    }
+}
+// .isg-header-icons li.isg-social a:before {
+//     background: #ffffff;
+// }
+.isg-header-icons li.isg-social a {
+    color: #ffffff;
+}
+.isg-social a {
+    // border: 1px solid #000000;
+    border-radius: 50%;
+}
+#isg-boxes {
+    // display: flex;
+    .isg-box {
+        background-color: #154360;
+        padding: 20px;
+        // border-top: 1px solid #1F2041;
+        // border-radius: 5px;
+        // width: 30%;
+    }
+    .isg-box h2 {
+        color: #ffffff;
+    }
+    .isg-box > a {
+        color: #ffffff;
+    }
+    .isg-box b {
+        border: 1px solid #ffffff;
+    }
+    .isg-panel-open {
+        // border: 1px solid #ffffff;
+    }
+    #profile-link {
+        // background-color:#154360;
+        // border-right: 1px solid #ffffff;
+        // border-bottom: 1px solid #ffffff;
+    }
+    #education-link {
+        // background-color:#154360;
+        // border-right: 1px solid #ffffff;
+        // border-bottom: 1px solid #ffffff;
+    }
+    #experience-link {
+        // background-color:#154360;
+        // border-bottom: 1px solid #ffffff;
+    }
+    #projects-link {
+        // background-color:#154360;
+        // border-right: 1px solid #ffffff;
+        // border-bottom: 1px solid #ffffff;
+    }
+    #skills-link {
+        // background-color:#154360;
+        // border-right: 1px solid #ffffff;
+        // border-bottom: 1px solid #ffffff;
+    }
+    #awards-link {
+        // background-color: #154360;
+        // border-bottom: 1px solid #ffffff;
+    }
+}
+#isg-footer {
+    background-color: #ffffff;
+    p {
+        color: #000000;
+    }
+    .isg-footer-inner {
+        padding: 0;
+    }
+}
+#marco{
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 16px;
+    margin-top: 2em;
+}
+#cielo{
+    width: 100%;
+    height: 500px;
+    background: linear-gradient(to bottom,  #154360 0%,#154360 52%,#0c0207 100%); 
+    // background: #ffffff; 
+    position: absolute;
+    top: 0;
+}
+#edificios{
+    background: url('https://res.cloudinary.com/pastelitos/image/upload/v1610526533/eva/edificiosOne_fsg7nx.svg');
+    height: 500px; 
+    width: 100%;
+    top: 6.5em;
+    background-position: 0px 0px;
+    background-repeat: repeat-x;
+    -webkit-animation: animar_edificios 120s linear infinite;
+    -ms-animation: animar_edificios 120s linear infinite;
+    -moz-animation: animar_edificios 120s linear infinite;
+    position: absolute;
+}
+/* Animacion edificios */
+@keyframes  animar_edificios {
+    from { background-position: 0 0; }
+    to { background-position: 100% 0; }
+}
+@-webkit-keyframes  animar_edificios {
+    from { background-position: 0 0; }
+    to { background-position: 100% 0; }
+}
+@-ms-keyframes  animar_edificios {
+    from { background-position: 0 0; }
+    to { background-position: 100% 0; }
+}
+@-moz-keyframes  animar_edificios {
+    from { background-position: 0 0; }
+    to { background-position: 100% 0; }
+}
+#luna {
+    width: 6em;
+    height: 6em;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    -moz-box-shadow: 30px 10px 0 #F7F8E0;
+    -webkit-box-shadow: 30px 10px 0 #F7F8E0;
+    box-shadow: 30px 10px 0 #F7F8E0;
+    margin-top: 1em;
+    margin-left: 50%;
+    position: absolute;
+}
+#muro{
+    height: 16em;
+    width: 100%;
+    background: -moz-linear-gradient(top,  #416663 0%, #0c0207 19%); 
+    background: -webkit-linear-gradient(top,  #416663 0%,#0c0207 19%); 
+    background: linear-gradient(to bottom,  #416663 0%,#0c0207 19%); 
+    bottom:0px; 
+}
+@-webkit-keyframes sprite-animation { 
+    from { background-position: 0 0; }
+    to { background-position: -8120px 0; } 
+}
+@-ms-keyframes sprite-animation { 
+    from { background-position: 0 0; }
+    to { background-position: -8120px 0; }
+}
+@-moz-keyframes sprite-animation { 
+    from { background-position: 0 0; }
+    to { background-position: -8120px 0; }
+}
+@keyframes sprite-animation { 
+    from { background-position: 0 0; }
+    to { background-position: -8120px 0; }
+}
+
+.fa-facebook{
+    // color: #1877F2 !important;
+    background-color: #1877F2;
+}
+.fa-github{
+    // color: #1877F2 !important;
+    background-color: #1F2041;
+}
+.fa-youtube-play{
+    // color: #1877F2 !important;
+    background-color: red;
+}
+
+// .isg-header-icons li.isg-social a:before {
+//     background: #ffffff;
+// }
+.fa-instagram {
+    // color: transparent !important;
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    // background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    // background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    // background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    // background-clip: text;
+    // -webkit-background-clip: text;
+  }
+#isg-footer .isg-footer-inner {
+    width: 100%;
+}
