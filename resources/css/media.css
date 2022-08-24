@@ -501,6 +501,7 @@
         transition: transform 0.3s 0s;
     }
     .isg-box a:hover b {
+        text-decoration: underline;
         opacity: 1;
         -webkit-transform: translateY(0);
         -moz-transform: translateY(0);

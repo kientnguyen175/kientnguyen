@@ -49,7 +49,6 @@
 
         <footer id="isg-footer">
             <div class="isg-footer-inner">
-                {{-- <p>&#169; 2022 Kientnguyen</p> --}}
                 <div id="marco">
                     <div id="cielo"></div>
                     <div id="luna"></div>
