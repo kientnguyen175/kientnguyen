@@ -11,22 +11,31 @@
             <div class="isg-mobile-logo">
                 <img src="{{ asset('images/avatar.jpeg') }}" alt="" />      
             </div>
-            <!-- HEADER ICONS -->
             <ul class="isg-header-icons">
                 <!-- LOGO -->
                 <li class="isg-logo">
                     <img src="{{ asset('images/avatar.jpeg') }}" alt="" />      
                 </li>
-               
-                {{-- <li class="isg-social">
-                    <a target="_blank" href="{{ config('social.instagram') }}" class="fa fa-instagram">Instagram</a>
-                </li>
-                <li class="isg-social">
-                    <a target="_blank" href="{{ config('social.youtube') }}" class="fa fa-youtube-play" target="_blank">Youtube</a>
-                </li>
-                <li class="isg-social">
-                    <a target="_blank" href="{{ config('social.github') }}" class="fa fa-github">GitHub</a>
-                </li> --}}
+                @if (!empty($socialMedia['facebook']))
+                    <li class="isg-social">
+                        <a target="_blank" href="{{ $socialMedia['facebook']['uri'] }}" class="fa fa-facebook">Facebook</a>
+                    </li>
+                @endif
+                @if (!empty($socialMedia['instagram']))
+                    <li class="isg-social">
+                        <a target="_blank" href="{{ $socialMedia['instagram']['uri'] }}" class="fa fa-instagram">Instagram</a>
+                    </li>
+                @endif
+                @if (!empty($socialMedia['youtube']))
+                    <li class="isg-social">
+                        <a target="_blank" href="{{ $socialMedia['youtube']['uri'] }}" class="fa fa-youtube-play" target="_blank">Youtube</a>
+                    </li>
+                @endif
+                @if (!empty($socialMedia['github']))
+                    <li class="isg-social">
+                        <a target="_blank" href="{{ $socialMedia['github']['uri'] }}" class="fa fa-github">GitHub</a>
+                    </li>
+                @endif
             </ul>
             <h1>KIEN T. NGUYEN</h1>
             <p class="isg-subtitle">Web Developer</p>
