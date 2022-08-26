@@ -2,12 +2,16 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
+use App\Models\SocialMedia;
 
 class HomeController extends Controller
 {
     public function home()
     {
-        return view('home.index');
+        $socialMedia = SocialMedia::getAll();
+
+        return view('home.index', [
+            'socialMedia' => $socialMedia
+        ]);
     }
 }

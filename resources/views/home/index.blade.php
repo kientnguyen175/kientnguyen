@@ -17,10 +17,8 @@
                 <li class="isg-logo">
                     <img src="{{ asset('images/avatar.jpeg') }}" alt="" />      
                 </li>
-                <li class="isg-social">
-                    <a target="_blank" href="{{ config('social.facebook') }}" class="fa fa-facebook">Facebook</a>
-                </li>
-                <li class="isg-social">
+               
+                {{-- <li class="isg-social">
                     <a target="_blank" href="{{ config('social.instagram') }}" class="fa fa-instagram">Instagram</a>
                 </li>
                 <li class="isg-social">
@@ -28,7 +26,7 @@
                 </li>
                 <li class="isg-social">
                     <a target="_blank" href="{{ config('social.github') }}" class="fa fa-github">GitHub</a>
-                </li>
+                </li> --}}
             </ul>
             <h1>KIEN T. NGUYEN</h1>
             <p class="isg-subtitle">Web Developer</p>
