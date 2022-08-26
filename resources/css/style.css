@@ -506,13 +506,6 @@ blockquote p {
     transform-origin: 50% 100%;
 }
 
-.isg-menu li:hover a,
-.isg-menu li.current a {
-    -webkit-transform: translateZ(0) translateY(50%) rotateX(-90deg);
-    transform: translateZ(0) translateY(50%) rotateX(-90deg);
-    color: transparent;
-}
-
 .isg-menu li:hover a:after,
 .isg-menu li.current a:after {
     cursor: pointer;

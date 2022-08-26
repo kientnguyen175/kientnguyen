@@ -36,7 +36,7 @@
             page_html.removeClass('isg-loading-overflow-hidden');
             // Hide page loading container
             loading_container.fadeOut();
-        }, 1200);
+        }, 300);
 
     });
 })(jQuery);

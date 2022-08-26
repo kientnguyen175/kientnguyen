@@ -133,36 +133,22 @@ blockquote {
 /* ================= TOP MENU ================== */
 
 #isg-hidden-menu {
-    background-color: #1F2041;
+    background-color: #154360;
     color: #fff;
 }
 
 .isg-menu a {
     color: #ffffff;
-    background-color: #1F2041;
+    border: 1px solid #154360;
 }
 
-.isg-menu a:after {
-    background-color: #422040;
+.isg-menu li:hover a {
+    border: 1px solid #ffffff;
 }
 
-.isg-menu li:hover a,
 .isg-menu li.current a {
-    background-color: #1F2041;
+    border: 1px solid #ffffff;
 }
-
-@media only screen and (max-width: 1024px) {
-    .isg-menu li.current a {
-        background-color: #782347;
-    }
-}
-
-.isg-menu li:hover a:after,
-.isg-menu li.current a:after {
-    background-color: #782347;
-    color: #ffffff;
-}
-
 
 /* ================= HEADER ICONS ================== */
 

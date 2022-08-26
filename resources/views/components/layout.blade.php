@@ -33,7 +33,8 @@
     <div id="isg-main">
         <nav id="isg-hidden-menu">
             <ul class="isg-menu">
-                <li class="current"><a href="index.html" data-hover="HOME">HOME</a></li>
+                <li class="current"><a href="{{ route('home') }}" data-hover="HOME">HOME</a></li>
+                <li><a href="blog.html" data-hover="POSTS">POSTS</a></li>
             </ul>
         </nav>
         <header id="isg-header">

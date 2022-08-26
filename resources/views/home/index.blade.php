@@ -7,12 +7,10 @@
 
     <x-slot:banner>
         <div class="isg-intro">
-            <!-- MOBILE LOGO -->
             <div class="isg-mobile-logo">
                 <img src="{{ asset('images/avatar.jpeg') }}" alt="" />      
             </div>
             <ul class="isg-header-icons">
-                <!-- LOGO -->
                 <li class="isg-logo">
                     <img src="{{ asset('images/avatar.jpeg') }}" alt="" />      
                 </li>
