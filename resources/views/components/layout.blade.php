@@ -21,15 +21,6 @@
     {{ $style ?? '' }}
 </head>
 <body>
-    <div id="isg-page-loading">
-        <div class="isg-loading-table">
-            <div class="isg-loading-cell">
-                <div class="isg-loading-text" data-content="KTN">KTN</div>
-            </div>
-        </div>
-        <div class="isg-loading-bar"></div>
-    </div>
-    <div id="isg-overlay"></div>
     <div id="isg-main">
         <nav id="isg-hidden-menu">
             <ul class="isg-menu">
