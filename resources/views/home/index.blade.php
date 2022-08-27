@@ -14,26 +14,11 @@
                 <li class="isg-logo">
                     <img src="{{ asset('images/avatar.jpeg') }}" alt="" />      
                 </li>
-                @if (!empty($socialMedia['facebook']))
+                @foreach ($socialMedia as $item)
                     <li class="isg-social">
-                        <a target="_blank" href="{{ $socialMedia['facebook']['uri'] }}" class="fa fa-facebook">Facebook</a>
+                        {!! $item->html !!}
                     </li>
-                @endif
-                @if (!empty($socialMedia['instagram']))
-                    <li class="isg-social">
-                        <a target="_blank" href="{{ $socialMedia['instagram']['uri'] }}" class="fa fa-instagram">Instagram</a>
-                    </li>
-                @endif
-                @if (!empty($socialMedia['youtube']))
-                    <li class="isg-social">
-                        <a target="_blank" href="{{ $socialMedia['youtube']['uri'] }}" class="fa fa-youtube-play" target="_blank">Youtube</a>
-                    </li>
-                @endif
-                @if (!empty($socialMedia['github']))
-                    <li class="isg-social">
-                        <a target="_blank" href="{{ $socialMedia['github']['uri'] }}" class="fa fa-github">GitHub</a>
-                    </li>
-                @endif
+                @endforeach
             </ul>
             <h1>KIEN T. NGUYEN</h1>
             <p class="isg-subtitle">Web Developer</p>

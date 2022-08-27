@@ -8,15 +8,8 @@ class SocialMedia extends Model
 {
     protected $table = 'social_media';
 
-    public static function getAll()
+    public static function getAllDisplayed()
     {
-        $result = [];
-
-        $socialMediaFromDB = self::all()->toArray();
-        foreach ($socialMediaFromDB as $item) {
-            $result[$item['slug']] = $item;
-        }
-
-        return $result;
+        return self::where('is_displayed', 1)->get();
     }
 }
