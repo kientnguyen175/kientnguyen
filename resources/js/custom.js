@@ -9,9 +9,6 @@
     var loading_bar = $('.isg-loading-bar', '#isg-page-loading');
     var loading_sub_title = $('.isg-loading-sub-text', '#isg-page-loading');
     
-    // Disable scroll bar
-    page_html.addClass('isg-loading-overflow-hidden');
-
     // Start Loading Text Animation
     loading_text.addClass('start-animation');
 

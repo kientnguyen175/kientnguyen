@@ -21,6 +21,7 @@
     {{ $style ?? '' }}
 </head>
 <body>
+    <div id="isg-overlay"></div>
     <div id="isg-main">
         <nav id="isg-hidden-menu">
             <ul class="isg-menu">
