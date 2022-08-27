@@ -140,6 +140,8 @@ blockquote {
 .isg-menu a {
     color: #ffffff;
     border: 1px solid #154360;
+    width: 120px;
+    margin: auto;
 }
 
 .isg-menu li:hover a {
