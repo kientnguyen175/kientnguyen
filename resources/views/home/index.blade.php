@@ -13,23 +13,21 @@
     </x-slot>
 
     <x-slot:banner>
-        <div class="isg-intro">
-            <div class="isg-mobile-logo">
-                <img src="{{ asset('images/avatar.jpeg') }}" alt="" />      
-            </div>
-            <ul class="isg-header-icons">
-                <li class="isg-logo">
-                    <img src="{{ asset('images/avatar.jpeg') }}" alt="" />      
-                </li>
-                @foreach ($socialMedia as $item)
-                    <li class="isg-social">
-                        {!! $item->html !!}
-                    </li>
-                @endforeach
-            </ul>
-            <h1>KIEN T. NGUYEN</h1>
-            <p class="isg-subtitle">Web Developer</p>
+        <div class="isg-mobile-logo">
+            <img src="{{ asset('images/avatar.jpeg') }}" alt="" />      
         </div>
+        <ul class="isg-header-icons">
+            <li class="isg-logo">
+                <img src="{{ asset('images/avatar.jpeg') }}" alt="" />      
+            </li>
+            @foreach ($socialMedia as $item)
+                <li class="isg-social">
+                    {!! $item->html !!}
+                </li>
+            @endforeach
+        </ul>
+        <h1>KIEN T. NGUYEN</h1>
+        <p class="isg-subtitle">Web Developer</p>
     </x-slot>
 
     <x-slot:slot>

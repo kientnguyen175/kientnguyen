@@ -15,6 +15,7 @@ export default defineConfig({
                 'resources/css/media.css',
                 'resources/css/nojs.css',
                 'resources/css/home.scss',
+                'resources/css/posts.scss',
                 //js
                 'resources/js/isg-panel.min.js',
                 'resources/js/lightgallery.min.js',

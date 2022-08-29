@@ -29,7 +29,9 @@
             <div class="isg-hamburger">
                 <span>Toggle Menu</span>
             </div>
-            {{ $banner ?? '' }}
+            <div class="isg-intro">
+                {{ $banner ?? '' }}
+            </div>
         </header>
         {{ $slot }}
 

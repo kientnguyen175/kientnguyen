@@ -1,6 +1,10 @@
 <x-layout>
     <x-slot:title>Posts</x-slot>
 
+    <x-slot:style>
+        @vite('resources/css/posts.scss')
+    </x-slot>
+
     <x-slot:header>
         <li><a href="{{ route('home.index') }}" data-hover="HOME">HOME</a></li>
         <li class="current"><a href="{{ route('posts.index') }}" data-hover="POSTS">POSTS</a></li>
