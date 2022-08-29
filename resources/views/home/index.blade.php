@@ -89,7 +89,9 @@
                 </a>
             </div>
         </div>
-
+    </x-slot>
+    
+    <x-slot:footer>
         <footer id="isg-footer">
             <div class="isg-footer-inner">
                 <div id="marco">
@@ -117,22 +119,19 @@
         @vite('resources/js/isg-panel.min.js')
         <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
         <script type="text/javascript">
-            // Testimonials carousel
             jQuery(document).ready(function () {
                 "use strict";
-                // Initialize the plugin
                 jQuery('#testimonial-carousel').slick({
-                    adaptiveHeight: true, // Adaptive height
-                    autoplay: true, // Autoplay
-                    autoplaySpeed: 4000, // autoplay speed in milliseconds
-                    arrows: false, // Navigation arrows
-                    dots: true, // Navigation dots
-                    draggable: false, // Draggable
-                    infinite: true, // Infinite loop
-                    speed: 500, // Transition speed
-                    fade: true // Fade Animation
+                    adaptiveHeight: true,
+                    autoplay: true,
+                    autoplaySpeed: 4000,
+                    arrows: false,
+                    dots: true,
+                    draggable: false,
+                    infinite: true,
+                    speed: 500,
+                    fade: true
                 });
-                // Required to display the carousels in the panels correctly.
                 jQuery("#isg-boxes").find(".isg-panel-open").on('click', function () {
                     setTimeout(function () {
                         jQuery("#isg-panels").find('.isg-slick-carousel').slick('setPosition');
