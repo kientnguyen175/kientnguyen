@@ -2,7 +2,14 @@
     <x-slot:title>Home</x-slot>
 
     <x-slot:style>
+        @vite('resources/css/slick.css')
+        @vite('resources/css/lightgallery.css')
         @vite('resources/css/home.scss')
+    </x-slot>
+
+    <x-slot:header>
+        <li class="current"><a href="{{ route('home.index') }}" data-hover="HOME">HOME</a></li>
+        <li><a href="{{ route('posts.index') }}" data-hover="POSTS">POSTS</a></li>
     </x-slot>
 
     <x-slot:banner>
@@ -82,6 +89,17 @@
                 </a>
             </div>
         </div>
+
+        <footer id="isg-footer">
+            <div class="isg-footer-inner">
+                <div id="marco">
+                    <div id="cielo"></div>
+                    <div id="luna"></div>
+                    <div id="muro"></div>
+                    <div id="edificios"></div>
+                </div>
+            </div>
+        </footer>
     </x-slot>
 
     <x-slot:panels>
@@ -93,5 +111,40 @@
             @include('home.components.skills')
             @include('home.components.awards')
         </div>    
+    </x-slot>
+
+    <x-slot:scripts>
+        @vite('resources/js/isg-panel.min.js')
+        <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+        <script type="text/javascript">
+            // Testimonials carousel
+            jQuery(document).ready(function () {
+                "use strict";
+                // Initialize the plugin
+                jQuery('#testimonial-carousel').slick({
+                    adaptiveHeight: true, // Adaptive height
+                    autoplay: true, // Autoplay
+                    autoplaySpeed: 4000, // autoplay speed in milliseconds
+                    arrows: false, // Navigation arrows
+                    dots: true, // Navigation dots
+                    draggable: false, // Draggable
+                    infinite: true, // Infinite loop
+                    speed: 500, // Transition speed
+                    fade: true // Fade Animation
+                });
+                // Required to display the carousels in the panels correctly.
+                jQuery("#isg-boxes").find(".isg-panel-open").on('click', function () {
+                    setTimeout(function () {
+                        jQuery("#isg-panels").find('.isg-slick-carousel').slick('setPosition');
+                    }, 100);
+                    return false;
+                });
+            });
+        </script>
+        @vite('resources/js/lightgallery.min.js')
+        @vite('resources/js/portfolio-filter.js')
+        @vite('resources/js/galleries.js')
+        @vite('resources/js/ajax-contact-form.js')
+        @vite('resources/js/home.js')
     </x-slot>
 </x-layout>

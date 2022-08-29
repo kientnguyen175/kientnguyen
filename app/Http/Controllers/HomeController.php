@@ -6,7 +6,7 @@ use App\Models\SocialMedia;
 
 class HomeController extends Controller
 {
-    public function home()
+    public function index()
     {
         $socialMedia = SocialMedia::getAllDisplayed();
 
