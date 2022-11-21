@@ -8,8 +8,8 @@ class SocialMedia extends Model
 {
     protected $table = 'social_media';
 
-    public static function getAllDisplayed()
+    public static function getAllDisplayedOfRootUser()
     {
-        return self::where('is_displayed', 1)->get();
+        return self::where('is_displayed', 1)->whereNull('user_id')->get();
     }
 }

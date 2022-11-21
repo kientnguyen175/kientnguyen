@@ -33,6 +33,7 @@
                 {{ $banner ?? '' }}
             </div>
         </header>
+
         {{ $slot }}
 
         @if (isset($footer))

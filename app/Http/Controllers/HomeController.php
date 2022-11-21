@@ -8,7 +8,7 @@ class HomeController extends Controller
 {
     public function index()
     {
-        $socialMedia = SocialMedia::getAllDisplayed();
+        $socialMedia = SocialMedia::getAllDisplayedOfRootUser();
 
         return view('home.index', [
             'socialMedia' => $socialMedia

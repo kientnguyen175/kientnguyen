@@ -29,54 +29,6 @@
                         <a href="single-post.html" class="isg-button">Read More</a>
                     </div>
                 </article>
-                <!-- POST 2 -->
-                <article class="isg-article-box">
-                    <div class="isg-article-img">
-                        <a href="single-post.html"></a>
-                        <img src="images/photos/blog-2.jpg" alt="" />
-                        <div class="isg-article-icon">
-                            <div><i class="fa fa-chain"></i></div>
-                        </div>
-                    </div>
-                    <div class="isg-article-content">
-                        <div class="isg-post-date">22 JUNE 2016</div>
-                        <h3><a href="single-post.html">NESCIUS LEGAM NOSTER</a></h3>
-                        <p>Ne nescius exquisitaque ut nescius et legam proident. Noster vidisse ubi ingeniis in iudicem hic possumus si mandaremus tamen de cupidatat concursionibus, incurreret te legam eiusmod, esse deserunt et quem tamen...</p>
-                        <a href="single-post.html" class="isg-button">Read More</a>
-                    </div>
-                </article>
-                <!-- POST 3 -->
-                <article class="isg-article-box">
-                    <div class="isg-article-img">
-                        <a href="single-post.html"></a>
-                        <img src="images/photos/blog-3.jpg" alt="" />
-                        <div class="isg-article-icon">
-                            <div><i class="fa fa-chain"></i></div>
-                        </div>
-                    </div>
-                    <div class="isg-article-content">
-                        <div class="isg-post-date">19 JUNE 2016</div>
-                        <h3><a href="single-post.html">DE QUORUM ELIT</a></h3>
-                        <p>De quorum sunt anim consequat est a noster iis elit, tempor te tempor, ea culpa fabulas praetermissum ex illum arbitror est cillum dolore, lorem si cupidatat, deserunt cillum nam cupidatat familiaritatem...</p>
-                        <a href="single-post.html" class="isg-button">Read More</a>
-                    </div>
-                </article>
-                <!-- POST 4 -->
-                <article class="isg-article-box">
-                    <div class="isg-article-img">
-                        <a href="single-post.html"></a>
-                        <img src="images/photos/blog-4.jpg" alt="" />
-                        <div class="isg-article-icon">
-                            <div><i class="fa fa-chain"></i></div>
-                        </div>
-                    </div>
-                    <div class="isg-article-content">
-                        <div class="isg-post-date">17 JUNE 2016</div>
-                        <h3><a href="single-post.html">EXCEPTEUR SUMMIS AUT</a></h3>
-                        <p>Deserunt eram summis excepteur legam, eu esse ingeniis praesentibus. Ne quamquam praetermissum de ea a illum quae amet, ex aut summis consequat, vidisse aut litteris, ipsum ullamco ingeniis hic lorem o nam...</p>
-                        <a href="single-post.html" class="isg-button">Read More</a>
-                    </div>
-                </article>
                 <!-- PAGER -->
                 <div class="isg-pager">
                     <div class="isg-pager-left"><a href="#" class="isg-button">Previous</a></div>
@@ -85,36 +37,6 @@
             </div>
             <!-- SIDEBAR -->
             <aside class="isg-page-right">
-                <!-- PROFILE CARD -->
-                <div class="isg-profile-card">
-                    <a class="isg-profile-thumb" href="index.html">
-                        <img src="images/photos/square.jpg" alt="" />
-                    </a>
-                    <div class="isg-profile-content">
-                        <h3>RYAN WEAVER</h3>
-                        <p class="isg-profile-subtitle">Web Designer & Developer</p>
-                        <p>Se pariatur ex aliquip ut te arbitror voluptatibus. Nam aliquip nam cernantur in qui duis culpa tamen ullamco...</p>
-                        <ul class="isg-profile-icons">
-                            <!-- SOCIAL ICONS -->
-                            <li class="isg-social">
-                                <a href="#" class="fa fa-facebook-f">Facebook</a>
-                            </li>
-                            <li class="isg-social">
-                                <a href="#" class="fa fa-twitter">Twitter</a>
-                            </li>
-                            <li class="isg-social">
-                                <a href="#" class="fa fa-google-plus">Google</a>
-                            </li>
-                            <li class="isg-social">
-                                <a href="#" class="fa fa-instagram">Instagram</a>
-                            </li>
-                            <li class="isg-social">
-                                <a href="#" class="fa fa-vimeo">Vimeo</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <a href="index.html#about" class="isg-profile-button">LEARN MORE</a>
-                </div>
                 <!-- SEARCHBOX -->
                 <form id="searchform" class="isg-searchbox">
                     <input type="text" id="search" class="isg-searchtext" placeholder="Keyword..." />
@@ -122,7 +44,7 @@
                 </form>
                 <!-- POPULAR POSTS -->
                 <div class="isg-sidebar-box">
-                    <h5>POPULAR POSTS</h5>
+                    <h5>FEATURED POSTS</h5>
                     <ul class="isg-popular-list">
                         <li>
                             <div class="isg-popular-left">
@@ -187,17 +109,6 @@
                             <a href="#">Commodo dolore te nostrud</a>
                         </li>
                     </ul>
-                </div>
-                <!-- BANNER -->
-                <div class="isg-banner">
-                    <a href="index.html" target="_blank"></a>
-                    <img src="images/photos/banner.jpg" alt="" />
-                    <div class="isg-banner-icon">
-                        <div><i class="fa fa-chain"></i></div>
-                    </div>
-                </div>
-                <div class="isg-banner-title">
-                    <p><a href="index.html" target="_blank">I'm a Banner !</a></p>
                 </div>
                 <!-- TAGS -->
                 <div class="isg-sidebar-box">
