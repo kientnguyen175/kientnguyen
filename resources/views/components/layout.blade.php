@@ -43,8 +43,11 @@
         @endif
     </div>
     {{ $panels ?? '' }}
-    
+
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.7.13/dist/vue.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1.11.5/dayjs.min.js"></script>
     @vite('resources/js/custom.js')
     {{ $scripts ?? '' }}
 </body>

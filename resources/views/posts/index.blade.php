@@ -3,6 +3,11 @@
 
     <x-slot:style>
         @vite('resources/css/posts.scss')
+        <style>
+            .post-title {
+                margin-bottom: 10px;
+            }
+        </style>
     </x-slot>
 
     <x-slot:header>
@@ -12,9 +17,8 @@
 
     <x-slot:slot>
         <div class="isg-page-content">
-            <div class="isg-page-left">
-                <!-- POST 1 -->
-                <article class="isg-article-box">
+            <div id="post-list" class="isg-page-left">
+                <article class="isg-article-box" v-for="post in posts">
                     <div class="isg-article-img">
                         <a href="single-post.html"></a>
                         <img src="images/photos/blog-1.jpg" alt="" />
@@ -23,16 +27,18 @@
                         </div>
                     </div>
                     <div class="isg-article-content">
-                        <div class="isg-post-date">28 JUNE 2016</div>
-                        <h3><a href="single-post.html">CILLUM AMET SINGULIS</a></h3>
-                        <p>Voluptate illum dolore ita ipsum, quid deserunt singulis, labore admodum ita multos malis ea nam nam tamen fore amet. Vidisse quid incurreret ut ut possumus transferrem si ita labore dolor si appellat...</p>
-                        <a href="single-post.html" class="isg-button">Read More</a>
+                        <div class="isg-popular-date post-title">
+                            <i class="fa fa-globe" aria-hidden="true"></i> @{{ post.user.name }} &#183; @{{ dayjs(posts.created_at).format('DD MMMM YYYY') }}
+                        </div>
+
+                        <h3><a href="single-post.html">@{{ post.title }}</a></h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, iste. Recusandae, dolorum! Consectetur ex voluptatem ut rerum dolore corporis, officiis quo, magnam harum nobis libero possimus nesciunt nostrum aperiam facilis.</p>
                     </div>
                 </article>
                 <!-- PAGER -->
                 <div class="isg-pager">
-                    <div class="isg-pager-left"><a href="#" class="isg-button">Previous</a></div>
-                    <div class="isg-pager-right"><a href="#" class="isg-button">Next</a></div>
+                    <div class="isg-pager-left" v-if="pagination.hasPrevPage"><a href="#" class="isg-button">Previous</a></div>
+                    <div class="isg-pager-right" v-if="pagination.hasNextPage"><a href="#" class="isg-button">Next</a></div>
                 </div>
             </div>
             <!-- SIDEBAR -->
@@ -129,5 +135,39 @@
                 </div>
             </aside>
         </div>
+    </x-slot>
+
+    <x-slot:scripts>
+        <script>
+            const postList = new Vue({
+                el: '#post-list',
+                data: {
+                    posts: [],
+                    pagination: {
+                        currentPage: 1,
+                        hasNextPage: false,
+                        hasPrevPage: false
+                    }
+                },
+                methods: {
+                    async getPosts() {
+                        let self = this;
+                        axios.get('/api/posts')
+                            .then(function (response) {
+                                let data = response.data;
+                                if (data.status == 'successful') {
+                                    self.posts = data.posts;
+                                    self.pagination.currentPage = data.pagination.currentPage;
+                                    self.pagination.hasNextPage = data.pagination.hasNextPage;
+                                    self.pagination.hasPrevPage = data.pagination.hasPrevPage;
+                                }
+                            })
+                    }
+                },
+                mounted() {
+                    this.getPosts();
+                }
+            });
+        </script>
     </x-slot>
 </x-layout>

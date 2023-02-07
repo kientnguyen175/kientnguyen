@@ -19,7 +19,7 @@
         <div class="isg-table">
             <div class="isg-table-row">
                 <div>
-                    <p><i class="fa fa-user" aria-hidden="true"></i></i> <strong>Full name</strong></p>
+                    <p><i class="fa fa-user" aria-hidden="true"></i> <strong>Full name</strong></p>
                     <p>Kien Trung Nguyen</p>
                 </div>
                 <div>
